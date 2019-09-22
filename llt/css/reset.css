@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{margin:0px; padding:0px; border:0px;}
+a{display:block;color:#E73422;text-decoration:none;cursor:pointer;}
+a:hover{color:#E73422;text-decoration:none;}
+.index-forum-div a:hover{color: #E73422}
+.forum-ptgg a:hover{color: #E73422}
+.nodisplay{display: none;}
+.yedisplay{display: block;}
+body{background: #ffffff;word-break: break-all;min-width: 1122px;font-size: 14px;font-family: "微软雅黑";color: #333333; word-wrap: break-word;}
+ul, li{list-style:none;}
+.cl{clear: both;}
+input{font-family:"Microsoft YaHei"; outline:none; background:none; border:0px;}
+input{outline:none;}
+.clearfix:before, .clearfix:after{content: ""; display: table;}
+.clearFix:after{display: block;content: '';height: 0;clear: both;visibility: hidden;}
+.container{width: 1080px;margin: 0 auto;position: relative;height: 100%;}
+/****控制字个数，超过指定的宽度，省略号隐藏溢出的文字（公用样式类，请不要随便加入其他样式）****/
+.TextOver{text-overflow: ellipsis; overflow: hidden; white-space: nowrap;    color: #666666;}
